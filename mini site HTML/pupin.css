@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&family=Dancing+Script:wght@600&family=Inconsolata:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Cormorant Garamond', serif;
+}
+body {
+    background-color:honeydew;
+    font-size: 25px;
+}
+
+header {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color:rgb(208, 236, 234);
+    padding-left: 2em;
+    margin-left: 1em;
+    margin-right: 2em;
+
+}
+h2 {
+    position: absolute;
+    right: 3em;
+    color: teal;
+}
+input {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 0.5em 3em;
+    background-color:lavender;
+   border-radius: 1em;
+   border-color:steelblue;
+   margin-left: 2em;
+   margin-right: 2em;
+}
+
+nav {
+    margin-left: 1em;
+    background-color: rgb(208, 236, 234);
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    padding: 2em 0.5em;
+}
+
+section {
+    float: left;
+    
+}
+
+article {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    float: right;
+    width: 75%;
+}
+
+article img {
+    float: left;
+    border: 5px steelblue double;
+    margin: 1em 2em;
+}
+p {
+    text-align: justify;
+    text-indent: 2em;
+    margin-top: 1em;
+    margin-right: 4em;
+}
+h3 {
+    padding-top: 1em;
+    color: teal;
+    text-indent: 2em;
+}
+
+table {
+    border-style: solid;
+    border-color: teal;
+    border-spacing: 0;
+    border-collapse: collapse;
+    font-family: "times-new-roman", sans-serif;
+    margin-right: 3em;
+}
+
+th {
+    border-style: solid;
+    border-color: teal;
+    background-color:teal;
+    color: white;
+    padding-right: 0.5em;
+    text-align: center;
+}
+td {
+    border-style: solid;
+    border-color: teal;
+    padding: 0.5em;
+}
+h4 {
+    padding-top: 1em;
+    text-indent: 2em;
+}
+
+.par {
+    background-color:snow;
+}
